@@ -1,0 +1,50 @@
+# ── Python cache & compiled files ───────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.spec
+
+# ── Virtual environments ─────────────────────────────────────
+venv/
+env/
+.venv/
+.env_/
+ENV/
+env.bak/
+venv.bak/
+
+# ── Credentials / secrets ────────────────────────────────────
+.env
+*.env
+.env.*
+!.env.example
+
+# ── Logs & temp files ────────────────────────────────────────
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+
+# ── OS artefacts ─────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDEs ─────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# ── Coverage / testing ───────────────────────────────────────
+.coverage
+htmlcov/
+.pytest_cache/
